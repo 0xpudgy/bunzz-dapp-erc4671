@@ -7,11 +7,17 @@ Non-Tradable Token (ERC4671) represents a module that a project may need when is
 This module has the feature of minting as many tokens as you want and hosting their metadata on a centralized api, in addition, the tokens can not be transferred to any address, making them non-tradable tokens.
 
 ## Sample dApp
-- GitHub Repo URL
+
+- GitHub Repo URL: 
+
     https://github.com/moco-bunzz/bunzz-dapp-erc4671
-- Sample dApp URL
+
+- Sample dApp URL: 
+
     Not available
 
 ## Audit report
-- [Solidity Audit Report]
-[Link text](../auditReport/[20230308] Audit Report for Bunzz ERC4671.pdf)
+
+- Solidity Audit Report:
+
+    [[20230308] Audit Report for Bunzz ERC4671.pdf](https://github.com/moco-bunzz/bunzz-dapp-erc4671/blob/main/auditReport/%5B20230308%5D%20Audit%20Report%20for%20Bunzz%20ERC4671.pdf)
