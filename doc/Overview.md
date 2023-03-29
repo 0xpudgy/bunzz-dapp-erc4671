@@ -14,4 +14,4 @@ This module has the feature of minting as many tokens as you want and hosting th
 
 ## Audit report
 - [Solidity Audit Report]
-../[20230308] Audit Report for Bunzz ERC4671.pdf
+[Link text](../auditReport/[20230308] Audit Report for Bunzz ERC4671.pdf)
