@@ -14,7 +14,7 @@ export const setERC4671ContractAddress = (bunzz, address) => {
 
 export const mint = async (erc4671Contract, owner, account) => {
   return erc4671Contract.methods
-    .Mint(owner)
+    .mint(owner)
     .send({ from: account })
     .on("transactionHash", (tx) => {
       console.log(tx);
@@ -24,7 +24,7 @@ export const mint = async (erc4671Contract, owner, account) => {
 
 export const revoke = async (erc4671Contract, amount, account) => {
   return erc4671Contract.methods
-    .Revoke(new BigNumber(amount))
+    .revoke(new BigNumber(amount))
     .send({ from: account })
     .on("transactionHash", (tx) => {
       console.log(tx);

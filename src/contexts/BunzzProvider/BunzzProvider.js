@@ -24,7 +24,6 @@ const BunzzProvider = ({ children }) => {
   useEffect(() => {
     if (ethereum) {
       const chainId = Number(ethereum.chainId);
-      console.log("chainId = ", chainId);
       const bunzzLib = new BUNZZ(ethereum, chainId, false, {
         defaultAccount: ethereum.selectedAddress,
         defaultConfirmations: 1,

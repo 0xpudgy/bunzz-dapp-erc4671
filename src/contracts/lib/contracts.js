@@ -1,6 +1,5 @@
 import * as Types from "./types.js";
 import { contractAddresses } from "./constants.js";
-
 import ERC4671Abi from "./abi/erc4671.json";
 
 export class Contracts {
@@ -12,9 +11,8 @@ export class Contracts {
       options.confirmationType || Types.ConfirmationType.Confirmed;
     this.defaultGas = options.defaultGas;
     this.defaultGasPrice = options.defaultGasPrice;
-    this.erc4671 = new this.web3.eth.Contract(ERC4671Abi);
+    this.erc4671 = new web3.eth.Contract(ERC4671Abi);
     this.setProvider(provider, networkId);
-    this.setDefaultAccount(this.web3.eth.defaultAccount);
   }
 
   setProvider(provider, networkId) {
